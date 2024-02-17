@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="style.css" />
+		<title>Угадай number</title>
+	</head>
+	<body>
+		<header>
+			<h1>Угадай число!</h1>
+			<p class="between">(Между 1 и 20)</p>
+			<button class="btn again">Заново!</button>
+			<div class="question">???</div>
+		</header>
+		<main>
+			<section class="left">
+				<input type="number" class="number-input" />
+				<button class="btn check">Проверка!</button>
+			</section>
+			<section class="right">
+				<p class="guess-message">Начни угадывать</p>
+				<p class="label-score">Очки: <span class="score">20</span></p>
+				<p class="label-highscore">
+					Лучший результат: <span class="highscore">0</span>
+				</p>
+			</section>
+		</main>
+		<script src="script.js"></script>
+	</body>
+</html>
